@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#fbeaeb;
+}
+.date{
+	 font-weight: bold;
+	 background-color: #fbeaeb;
+	 color: #df678c;
+	 font-size: 30px;
+}
+.yea{
+	border: 3px solid #fbeaeb;
+	border-radius: 10px;
+	position: absolute;
+	z-index: 3;
+	font-size:20px;
+	width: 90px;
+	height: 20px;
+	padding:0 auto; 
+
+}
+.flip{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin: 2px;
+	font-size: 66px;
+	line-height: 100px;
+	text-align: center;
+	border :3px solid white;
+	background-color:#df678c;
+	border-radius: 10px;
+	box-shadow: 0 0 6px white;
+	z-index: 1;
+}
+.flip:hover{
+	background-color: #fbeaeb;
+	color:#df678c;
+}
+.flip #period{
+	background-color: #fbeaeb;
+	color: #df678c;
+}
+.datetime{
+	color: #3d155f;
+     font-weight: 400;
+	width: 400px;
+	padding: 15px 10px;
+	
+	border-radius: 5px;
+	-webkit-box-reflect: below 1px linear-gradient(transparent,rgb(255,255,255, 0.4));
+	transition: all 0.6s linear;
+	transition-property: background ,box-shadow;
+}
+.datetime:hover{
+	
+	box-shadow: 0 0 30px #3d155f;
+	color: ;
+	font-size: 35px;
+	padding: 25px 10px;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+}
+
+.clock{
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+
+	align-items: center;
+	
+}
+
+.clock span{
+  position: relative;
+  margin: 0 6px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+#period {
+  
+ 
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+ 
+  
+}
+                
